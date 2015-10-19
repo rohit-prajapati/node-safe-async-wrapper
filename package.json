@@ -1,6 +1,6 @@
 {
   "name": "safe-async-wrapper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapper for async functions to always catch errors as first parameter of callback",
   "main": "index.js",
   "scripts": {
