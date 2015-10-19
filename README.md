@@ -11,15 +11,15 @@ npm install safe-async-wrapper
 ### Problem -
 
 You can catch the errors using try/catch blocks in synchronous functions. i.e.
-
+```
 try {
     syncFunction(a, b, c);
 } catch (e) {
     console.log("Dhappa: ", e);
 }
-
+```
 But this will not work with asynchromnous functions. For e.g. 
-
+```
 function asyncFunction(a, b, c, callback) {
     setTimeout(function () {
         throw new Error("BINGO ERROR");
@@ -34,7 +34,7 @@ try {
 } catch (e) {
     console.log("I can't catch the error here");
 }
-
+```
 ### Solution - 
 
 We can safely wrap our async function to get the uncaught exception as first parameter of the callback. i.e.
