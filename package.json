@@ -1,5 +1,5 @@
 {
-  "name": "asnyc-safe-wrapper",
+  "name": "safe-async-wrapper",
   "version": "0.0.1",
   "description": "Wrapper for async functions to always catch errors as first parameter of callback",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rohit-prajapati/node-async-safe-wrapper.git"
+    "url": "git+https://github.com/rohit-prajapati/node-safe-async-wrapper.git"
   },
   "keywords": [
     "npm",
@@ -28,7 +28,7 @@
   "author": "Rohit Prajapati <rohit.prajapati.64@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rohit-prajapati/node-async-safe-wrapper/issues"
+    "url": "https://github.com/rohit-prajapati/node-safe-async-wrapper/issues"
   },
-  "homepage": "https://github.com/rohit-prajapati/node-async-safe-wrapper#readme"
+  "homepage": "https://github.com/rohit-prajapati/node-safe-async-wrapper#readme"
 }
